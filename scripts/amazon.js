@@ -1,3 +1,5 @@
+import {cart} from '../data/cart.js';
+
 let productsHTML = '';
 
 products.forEach((product) => {
@@ -8,7 +10,7 @@ products.forEach((product) => {
           src="${product.image}">
       </div>
 
-      <div class="product-name limit-text-to-2-lines">
+      <div class="product-name  limit-text-to-2-lines">
         ${product.name}
       </div>
 
